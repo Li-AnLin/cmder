@@ -39,7 +39,7 @@
 		        "hidden": false,
 		        "startingDirectory" : "%USERPROFILE%",
 		        "fontFace" : "Anonymous Pro for Powerline",
-		        "fontSize": 11,
+		        "fontSize": 12,
 		        "background": "#272822",
 		        "useAcrylic" : true,
 		        "acrylicOpacity" : 0.9
@@ -49,7 +49,12 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
-                "hidden": false
+                "closeOnExit": true,
+        	    "colorScheme": "Campbell",
+        	    "fontFace" : "Anonymous Pro for Powerline",
+		        "snapOnInput": true,
+		        "background": "#272822",
+        	    "hidden": false
             },
             {
                 // Make changes here to the cmd.exe profile.

@@ -1,0 +1,17 @@
+222
+C:
+git init
+git status
+ssh-keygen -t rsa -b 4096 -C "jenny84311@gmail.com"
+cat  C:\Users\lin/.ssh/id_rsa.pub
+dir
+ll
+cd cmder\
+lls
+:D
+cd ../../
+D:
+ls
+cd ../
+git remote add origin git@git.a15t.cc:zhaizhai/cmder.git
+git add .

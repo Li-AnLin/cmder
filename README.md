@@ -50,3 +50,23 @@
         "hidden": false
     }
     ```
+
+## vscode 設定教學
+
+1. 於 `settings.json` 加入
+
+    ```json
+    {
+        "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+
+        // for cmder
+        "terminal.integrated.shell.windows": "cmd.exe",
+        "terminal.integrated.env.windows": {
+            "CMDER_ROOT": "D:\\cmder"
+        },
+        "terminal.integrated.shellArgs.windows": [
+            "/k",
+            "D:\\cmder\\vendor\\init.bat"
+        ]
+    }
+    ```

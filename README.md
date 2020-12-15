@@ -1,8 +1,8 @@
-## Cmder 設定教學
+## Cmder Setting Tutorial
 
-1. 把此路徑設至於環境變數 `PATH` 中。
-2. 安裝 `.\fonts\AnonymousPro` 中的 `Anonymice Powerline.ttf`。
-3. 若有使用 `windows terminal`。請於它的 `setting.json` 中，新增以下至 `list`
+1. Set this path to the environment variable `PATH`.
+2. Install `Anonymice Powerline.ttf` from `.\fonts\AnonymousPro`.
+3. If you use `windows terminal`, please add the following to `list` in its `setting.json`.
     
     ```json
     {
@@ -19,16 +19,16 @@
     	"acrylicOpacity" : 0.9
     }
     ```
-## Powershell 設定教學
+## Powershell Setting Tutorial
 
-1. 打開 `powershell`，輸入
+1. Open `powershell` typing
 
     ```powershell
     Install-Module posh-git -Scope CurrentUser
     Install-Module oh-my-posh -Scope CurrentUser
     ```
 
-2. 找到 `$profile` 位置 (例如: `D:\documents\WindowsPowerShell`)，並新建 `Microsoft.PowerShell_profile.ps1` 檔案，裡面內容為
+2. Find your `$profile` path (ex: `D:\documents\WindowsPowerShell`), and create a file named `Microsoft.PowerShell_profile.ps1`. The content is
 
     ```powershell
     Import-Module posh-git
@@ -36,7 +36,7 @@
     Set-Theme Agnoster
     ```
 
-3. 若有使用 `windows terminal`。請於它的 `setting.json` 中，新增以下至 `list`
+3. If you use `windows terminal`, please add the following to `list` in its `setting.json`.
 
     ```json
     {
@@ -51,9 +51,9 @@
     }
     ```
 
-## vscode 設定教學
+## vscode Setting Tutorial
 
-1. 於 `settings.json` 加入
+1. add the following into `settings.json`
 
     ```json
     {
